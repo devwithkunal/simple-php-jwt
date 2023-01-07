@@ -1,4 +1,4 @@
-# Simple PHP JWT `v1.0`
+# Simple PHP JWT Class `v1.0`
 
 This is a simple PHP JWT Class. It requires no dependencies. Fork it and have fun with it.
 
@@ -34,3 +34,6 @@ Return will be a boolen `false` value if token is invalid or expired, else it wi
 This code uses `base64_encode` to encode strings and `HS256` for signature algorithm.
 
 You can change it on `Token.php` file at line `28`.
+
+## LICENSE
+[MIT License](LICENSE)
