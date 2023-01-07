@@ -7,7 +7,7 @@ class Token{
      *  
      * @param array $payload
      * @param string $key - The signature key
-     * @param int $expire - (Optional) Max age of token in seconds. Leave it blank for no expiration.
+     * @param int $expire - (optional) Max age of token in seconds. Leave it blank for no expiration.
      * 
      * @return string token
      */
@@ -35,7 +35,7 @@ class Token{
     }
 
     /**
-     * Verify - Verify token
+     * Verify - Static method verify token
      * 
      * @param string $token
      * @param string $key - The signature key
